@@ -1,0 +1,29 @@
+{
+  "name": "mage2node",
+  "version": "0.0.1-rc.1",
+  "description": "Mage2node the commandline tool of Mage2gen based on the Rest API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mr. Lewis - Experius",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "console.table": "^0.10.0",
+    "delete": "^1.1.0",
+    "extract-zip": "^1.6.7",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.2",
+    "node-rest-client": "^3.1.0",
+    "node-wget": "^0.4.3",
+    "path": "^0.12.7",
+    "shelljs": "^0.8.3",
+    "table-master": "^1.0.3"
+  },
+  "repository": "https://github.com/experius/mage2node.git",
+  "bin": {
+    "mage2node": "./index.js"
+  }
+}
